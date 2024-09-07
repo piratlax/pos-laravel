@@ -1,105 +1,23 @@
-<script src="{{ asset('assets/js/loader.js') }}"></script>
-<link href="{{ asset('assets/css/loader.css') }}" rel="stylesheet" type="text/css" />
+<!-- loader-->
+<link href="{{ asset('assets/css/pace.min.css" rel="stylesheet') }}">
+<script src="{{ asset('assets/js/pace.min.js')}}"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
-
-<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('assets/css/structure.css') }}" rel="stylesheet" type="text/css" class="structure" />
-
-<link href="{{ asset('plugins/font-icons/fontawesome/css/fontawesome.css') }}" rel="stylesheet" type="text/css">
-<link href="{{ asset('css/fontawesome.css') }}" rel="stylesheet" type="text/css" />
-
-<link href="{{ asset('assets/css/elements/avatar.css') }}" rel="stylesheet" type="text/css" />
-
-<link href="{{ asset('plugins/sweetalerts/sweetalert.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('plugins/notification/snackbar/snackbar.min.css') }}" rel="stylesheet" type="text/css" />
-
-
-<link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" />
-
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/widgets/modules-widgets.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/forms/theme-checkbox-radio.css') }}">
-
-<link href="{{ asset('assets/css/apps/scrumboard.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('assets/css/apps/notes.css') }}" rel="stylesheet" type="text/css" />
-
-<link rel="stylesheet" href="{{ asset('css/apexcharts.css') }}" />
-
-
-
-<style>
-	aside {
-		display: none !important;
-	}
-
-	.page-item.active .page-link {
-		z-index: 3;
-		color: #fff;
-		background-color: #3b3f5c;
-		border-color: #3b3f5c;
-	}
-
-	@media (max-width: 480px) {
-		.mtmobile {
-			margin-bottom: 20px !important;
-		}
-
-		.mbmobile {
-			margin-bottom: 10px !important;
-		}
-
-		.hideonsm {
-			display: none !important;
-		}
-
-		.inblock {
-			display: block;
-		}
-	}
-
-	/*sidebar background*/
-	.sidebar-theme #compactSidebar {
-		background: #191e3a !important;
-	}
-
-	/*sidebar collapse background */
-	.header-container .sidebarCollapse {
-		color: #3B3F5C !important;
-	}
-
-	.navbar .navbar-item .nav-item form.form-inline input.search-form-control {
-		font-size: 15px;
-		background-color: #3B3F5C !important;
-		padding-right: 40px;
-		padding-top: 12px;
-		border: none;
-		color: #fff;
-		box-shadow: none;
-		border-radius: 30px;
-	}
-	/*modal buscador fullscreen*/
-	.modal.modal-fullscreen .modal-dialog {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  max-width: none; 
-}
-
-.modal.modal-fullscreen .modal-content {
-  height: auto;
-  height: 100vh;
-  border-radius: 0;
-  border: none; 
-}
-
-.modal.modal-fullscreen .modal-body {
-  overflow-y: auto; 
-}
-</style>
-
-
-<link href="{{ asset('plugins/flatpickr/flatpickr.dark.css') }}" rel="stylesheet" type="text/css" />
-
-@livewireStyles
+<!--plugins-->
+<link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet')}}">
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/metismenu/metisMenu.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/metismenu/mm-vertical.css')}}">
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/simplebar/css/simplebar.css')}}">
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/sweetalerts/sweetalert.css')}}">
+<!--bootstrap css-->
+<link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('assets/css/extra-icons.css')}}">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+<!--main css-->
+<link href="{{ asset('assets/css/bootstrap-extended.css')}}" rel="stylesheet">
+<link href="{{ asset('sass/main.css')}}" rel="stylesheet">
+<link href="{{ asset('sass/dark-theme.css')}}" rel="stylesheet">
+<link href="{{ asset('sass/blue-theme.css')}}" rel="stylesheet">
+<link href="{{ asset('sass/semi-dark.cs')}}s" rel="stylesheet">
+<link href="{{ asset('sass/bordered-theme.css')}}" rel="stylesheet">
+<link href="{{ asset('sass/responsive.css')}}" rel="stylesheet">
